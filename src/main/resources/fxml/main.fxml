@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cg.controller.MainController">
+   <children>
+      <ColorPicker fx:id="colorPicker" layoutX="238.0" layoutY="14.0" />
+      <Slider fx:id="sliderRgb1" layoutX="14.0" layoutY="101.0" max="255.0" prefHeight="14.0" prefWidth="110.0" />
+      <Slider fx:id="sliderRgb2" layoutX="13.0" layoutY="212.0" max="255.0" prefHeight="14.0" prefWidth="110.0" />
+      <Slider fx:id="sliderRgb3" layoutX="14.0" layoutY="334.0" max="255.0" prefHeight="14.0" prefWidth="110.0" />
+      <Label layoutX="46.0" layoutY="73.0" text="RGB" />
+      <Slider fx:id="sliderXyz1" layoutX="223.0" layoutY="101.0" prefHeight="14.0" prefWidth="110.0" />
+      <Slider fx:id="sliderXyz2" layoutX="215.0" layoutY="212.0" prefHeight="14.0" prefWidth="110.0" />
+      <Slider fx:id="sliderXyz3" layoutX="215.0" layoutY="334.0" prefHeight="14.0" prefWidth="110.0" />
+      <Label layoutX="250.0" layoutY="73.0" text="XYZ" />
+      <Slider fx:id="sliderLab1" layoutX="446.0" layoutY="101.0" prefHeight="14.0" prefWidth="110.0" />
+      <Slider fx:id="sliderLab2" layoutX="442.0" layoutY="212.0" max="128.0" min="-128.0" prefHeight="14.0" prefWidth="110.0" />
+      <Slider fx:id="sliderLab3" layoutX="452.0" layoutY="334.0" max="128.0" min="-128.0" prefHeight="14.0" prefWidth="110.0" />
+      <Label layoutX="487.0" layoutY="73.0" text="LAB" />
+      <TextField fx:id="fieldRgb1" layoutX="13.0" layoutY="142.0" prefHeight="26.0" prefWidth="110.0" text="0" />
+      <TextField fx:id="fieldRgb2" layoutX="13.0" layoutY="259.0" prefHeight="26.0" prefWidth="110.0" text="0" />
+      <TextField fx:id="fieldRgb3" layoutX="14.0" layoutY="361.0" prefHeight="26.0" prefWidth="110.0" text="0" />
+      <TextField fx:id="fieldXyz1" layoutX="223.0" layoutY="142.0" prefHeight="26.0" prefWidth="110.0" text="0" />
+      <TextField fx:id="fieldXyz2" layoutX="223.0" layoutY="259.0" prefHeight="26.0" prefWidth="110.0" text="0" />
+      <TextField fx:id="fieldXyz3" layoutX="223.0" layoutY="361.0" prefHeight="26.0" prefWidth="110.0" text="0" />
+      <TextField fx:id="fieldLab1" layoutX="452.0" layoutY="142.0" prefHeight="26.0" prefWidth="110.0" text="0" />
+      <TextField fx:id="fieldLab2" layoutX="452.0" layoutY="259.0" prefHeight="26.0" prefWidth="110.0" text="0" />
+      <TextField fx:id="fieldLab3" layoutX="452.0" layoutY="361.0" prefHeight="26.0" prefWidth="110.0" text="0" />
+   </children>
+</AnchorPane>
