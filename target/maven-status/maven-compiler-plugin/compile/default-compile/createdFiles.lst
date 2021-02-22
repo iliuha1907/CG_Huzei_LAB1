@@ -1,9 +1,9 @@
 com\cg\converter\LABConverter.class
+com\cg\model\XYZColor.class
 com\cg\controller\MainController.class
-com\cg\XYZColor.class
-com\cg\converter\LABColor.class
-com\cg\RGBColor.class
+com\cg\Runner.class
+com\cg\model\RGBColor.class
 com\cg\converter\RGBConverter.class
-com\cg\ColorType.class
 com\cg\converter\XYZConverter.class
 com\cg\MainApp.class
+com\cg\model\LABColor.class
