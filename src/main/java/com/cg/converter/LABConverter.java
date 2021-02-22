@@ -1,7 +1,8 @@
 package com.cg.converter;
 
-import com.cg.RGBColor;
-import com.cg.XYZColor;
+import com.cg.model.LABColor;
+import com.cg.model.RGBColor;
+import com.cg.model.XYZColor;
 
 public class LABConverter {
 

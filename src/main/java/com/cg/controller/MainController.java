@@ -1,9 +1,8 @@
 package com.cg.controller;
 
-import com.cg.ColorType;
-import com.cg.RGBColor;
-import com.cg.XYZColor;
-import com.cg.converter.LABColor;
+import com.cg.model.RGBColor;
+import com.cg.model.XYZColor;
+import com.cg.model.LABColor;
 import com.cg.converter.LABConverter;
 import com.cg.converter.RGBConverter;
 import com.cg.converter.XYZConverter;

@@ -1,4 +1,4 @@
-package com.cg;
+package com.cg.model;
 
 public class XYZColor {
 

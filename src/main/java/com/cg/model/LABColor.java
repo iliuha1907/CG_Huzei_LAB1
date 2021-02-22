@@ -1,4 +1,4 @@
-package com.cg.converter;
+package com.cg.model;
 
 public class LABColor {
 
